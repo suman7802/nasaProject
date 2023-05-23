@@ -1,0 +1,23 @@
+git commit -m "message"  --- to take snapshot
+git commit ----------------- open git into codeEditor
+git add file name----------- to take it into stageing area also remove deleted file from stageing area
+git rm --------------------- to delete file from working dir and also from git stageing area
+git mv "oldName" "newName" - to rename fle in dir and stageing area
+git status ----------------- to see which file/folder are tracked or not
+git init ------------------- initialize folder for git
+git ls-files ---------------- ls for stageing area
+git rm --cached "name"------remove file from stageing area
+git rm --cached -r "name"---remove file from stageing area recurcively
+
+-r recurcuvly
+-s small
+
+
+
+
+git init
+git add .
+git commit -m "[message]"
+git branch -M master
+git remote add origin "github repository link"
+git push -u origin master
